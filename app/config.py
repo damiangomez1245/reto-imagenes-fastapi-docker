@@ -28,5 +28,4 @@ class Settings(BaseSettings):
     # Lo más grande que se acepta. La app de la Práctica 10 manda ~300 KB; una foto sin comprimir, 4 MB o más.
     imagen_max_bytes: int = 2 * 1024 * 1024
 
-
 settings = Settings()
